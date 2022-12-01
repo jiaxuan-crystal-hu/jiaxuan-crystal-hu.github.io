@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project - Tin-News</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="../assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper-->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- Project: Tin-News -->
+        <article class="panel">
+          <header>
+            <!-- <img src="images/pic01.jpg" alt="jobplus logo" /> -->
+            <h2 style="text-align: center">Tin-News</h2>
+            <h3 style="text-align: center">
+              A Tinder-like News App to keep you posted.
+            </h3>
+          </header>
+          <p>
+            Tin-News is an online news application that allow users to swipe and
+            view news. In Tin-News, users can "swipe right" to like or "swipe
+            left" to dislike other a news to personalize their interested news
+            recommendation. Users can also search for topics that they are
+            interested in.
+          </p>
+          <h3>Technical Details</h3>
+          <p>
+            The application Tin-News follows an Instagram flavor in the layout
+            based on Google Component Architectural MVVM Pattern. Components of
+            the application, such as bottom bar and page navigation, utilizes
+            JetPack navigation components. The application employs Mindork's
+            PlaceHolderView to support swipe gestures for liking and/or
+            dislicking a news shown on the screen.
+          </p>
+          <p>
+            We build the Room Database with LiveData and ViewModel to support
+            local cache and offline model that allows users to view news withou
+            Wi-Fi. The latest news data are pulled from a RESTful endpoint
+            (newsapi.org) with integration of Retrofit and Rxjava.
+          </p>
+          <p align="center">
+            <img
+              src="../images/tin-news.png"
+              alt="Tin-News Layout"
+              width="378"
+              height="666"
+            />
+          </p>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <div id="footer">
+        <ul class="copyright">
+          <li>Jiaxuan (Crystal) Hu</li>
+          <li><a href="jiaxuanhu26@gmail.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
