@@ -1442,6 +1442,11 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+	p.small {
+		line-height: 1.1;
+		color: #777777;
+		/* text-indent: 30px; */
+	}
 
 	/* Timeline */
 	* {
@@ -1578,6 +1583,7 @@ input, select, textarea {
 			left: 0%;
 		}
 	}
+
 
 /* Gallery */
 div.gallery {
